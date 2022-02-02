@@ -146,7 +146,7 @@ public class ValidationItemControllerV2 {
 
         log.info("objectName={}", bindingResult.getObjectName());
         log.info("target={}", bindingResult.getTarget());
-        
+
         //검증
         bindingResult.rejectValue("itemName", "required");
 
