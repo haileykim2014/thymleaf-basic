@@ -5,10 +5,13 @@
 
 커리큘럼 : 김영한님 스프링 핵심 원리 강의 뿌시기 👊
 
-분량 : 섹션 1개 강의 !
+분량 : 섹션 1개 강의 !  
 
 
-
+하이버네이트 Validator 관련 링크  
+공식 사이트: http://hibernate.org/validator/  
+공식 메뉴얼: https://docs.jboss.org/hibernate/validator/6.2/reference/en-US/html_single/  
+검증 애노테이션 모음: Hibernate Validator 6.2.1.Final - Jakarta Bean Validation Reference Implementation: Reference Guide (jboss.org)  
 
 
 ### **Bean Validation**1
