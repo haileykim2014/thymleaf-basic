@@ -8,10 +8,6 @@
 분량 : 섹션 1개 강의 !  
 
 
-하이버네이트 Validator 관련 링크  
-공식 사이트: http://hibernate.org/validator/  
-공식 메뉴얼: https://docs.jboss.org/hibernate/validator/6.2/reference/en-US/html_single/  
-검증 애노테이션 모음: Hibernate Validator 6.2.1.Final - Jakarta Bean Validation Reference Implementation: Reference Guide (jboss.org)  
 
 
 ### **Bean Validation**1
@@ -136,3 +132,9 @@ HTML Form -> ItemSaveFrom -> Controller -> Item 생성 -> Repository
 **② @RequestBody:** 전체 객체 단위로 적용. 메시지 컨버터의 작동이 성공해서 Item 객체를 만들어야 @Valid , @Validated 가 적용됨. HttpMessageConverter 단계에서 JSON 데이터를 객체로 변경하지 못하면 이후
 
 단계 자체가 진행되지 않고 예외 발생. 컨트롤러도 호출되지 않고, Validator도 적용 불가.
+
+
+### 하이버네이트 Validator 관련 링크  
+공식 사이트: http://hibernate.org/validator/  
+공식 메뉴얼: https://docs.jboss.org/hibernate/validator/6.2/reference/en-US/html_single/  
+검증 애노테이션 모음: https://docs.jboss.org/hibernate/validator/6.2/reference/en-US/html_single/#validator-defineconstraints-spec 
